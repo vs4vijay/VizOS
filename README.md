@@ -14,34 +14,34 @@ PS: On Mac, Using homebrew: `brew install qemu nasm`
 
 ## Registers:
 - General Purpose Registers:
-  - ax; Accumulator (EAX)
-  - bx; Base (EBX)
-  - cx; Counter (ECX)
-  - dx; Data (EDX)
+  - `ax`; Accumulator (EAX)
+  - `bx`; Base (EBX)
+  - `cx`; Counter (ECX)
+  - `dx`; Data (EDX)
 - Stack Registers:
-  - bp; Base Pointer, Stores the base address of stack (EBP)
-  - sp; Stack Pointer, Stores the top address of stack, sp gets decremented (ESP)
+  - `bp`; Base Pointer, Stores the base address of stack (EBP)
+  - `sp`; Stack Pointer, Stores the top address of stack, sp gets decremented (ESP)
 - Pointer Registers:
-  - si; Source Index, (ESI)
-  - di; Destination Index, (EDI)
-  - ip; Instruction Pointer
+  - `si`; Source Index, (ESI)
+  - `di`; Destination Index, (EDI)
+  - `ip`; Instruction Pointer
 - Segmentation: Obsolete memory protection technique
   - Segment Register: Can be altered using registers
-   - cs; Code Segment; Can not be altered
-   - ds; Data Segment
-   - ss; Stack Segment
-   - es; Extra Segment
-   - fs, gs; General Purpose Segment
+    - `cs`; Code Segment; Can not be altered
+    - `ds`; Data Segment
+    - `ss`; Stack Segment
+    - `es`; Extra Segment
+    - `fs`, `gs`; General Purpose Segment
 - Special Registers:
-  - CR0,2,3
-  - DR0,1,2,3,6,7
-  - TR4,5,6,7
+  - `CR0,2,3`
+  - `DR0,1,2,3,6,7`
+  - `TR4,5,6,7`
 
 
 ## Bootloaders:
 - Geek Loading: Everything in Boot Record
 - One-stage Loading
-- Two-stage Loading: GRUB (GRand Unified Bootloader)
+- Two-stage Loading: `GRUB` (GRand Unified Bootloader)
 
 
 
