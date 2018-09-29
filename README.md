@@ -1,6 +1,10 @@
 # VIZIX
 An operating system for fun
 
+## Development Flow (Write an OS)
+- Create Boot Sector
+- 
+
 ## Development Tools Required
 - qemu
 - nasm
@@ -8,9 +12,22 @@ An operating system for fun
 
 PS: On Mac, Using homebrew: `brew install qemu nasm`
 
-## Development Flow (Write an OS)
-- Create Boot Sector
-- 
+## Running
+- `nasm -f bin Vizix.asm -o Vizix.bin`
+- `qemu Vizix.bin`
+
+## Bootsector Example:
+```
+; Infinite loop
+loop:
+    jmp loop 
+
+; Fill with 510 zeros minus the size of the previous code
+times 510-($-$$) db 0
+
+; Magic number
+dw 0xaa55
+```
 
 ## Registers:
 - General Purpose Registers:
