@@ -1,5 +1,5 @@
-# VIZIX
-An operating system for fun
+# VizOS
+An operating system for fun and learning
 
 ## Development Flow (Write an OS)
 - Create Boot Sector
@@ -64,9 +64,21 @@ dw 0xaa55
 
 ### References:
 - Little OS Book - https://littleosbook.github.io/
+- https://wiki.osdev.org/Bare_Bones
 - https://github.com/cfenollosa/os-tutorial
-- http://www.cs.bham.ac.uk/%7Eexr/lectures/opsys/10_11/lectures/os-dev.pdf
+- https://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf
+- https://www.cs.cmu.edu/~410/
 - https://wiki.osdev.org/Main_Page
 - http://stanislavs.org/helppc/idx_interrupt.html
 - https://legacy.gitbook.com/book/samypesse/how-to-create-an-operating-system/details
+- https://samypesse.gitbook.io/how-to-create-an-operating-system/
 - https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System
+- https://github.com/arjun024/mkernel
+- http://3zanders.co.uk/2017/10/13/writing-a-bootloader/
+- http://mikeos.sourceforge.net/write-your-own-os.html
+- http://osblog.stephenmarz.com/index.html
+- https://os.phil-opp.com/
+- https://www.rpi4os.com/
+- https://s-matyukevich.github.io/raspberry-pi-os/
+- https://www.fysnet.net/osdesign_book_series.htm
+- https://pages.cs.wisc.edu/~remzi/OSTEP/
