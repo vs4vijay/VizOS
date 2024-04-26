@@ -82,3 +82,12 @@ dw 0xaa55
 - https://s-matyukevich.github.io/raspberry-pi-os/
 - https://www.fysnet.net/osdesign_book_series.htm
 - https://pages.cs.wisc.edu/~remzi/OSTEP/
+
+
+### Hardware
+- https://eater.net/8bit/
+- https://nand.arhan.sh/
+- https://www.nand2tetris.org/
+- https://nandgame.com/
+- https://www.megaprocessor.com/
+- https://gitlab.com/x653/nand2tetris-fpga/
